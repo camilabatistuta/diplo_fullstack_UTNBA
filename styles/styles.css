@@ -1,7 +1,29 @@
-.list-class{
-    color: yellow;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.item-class{
-    color: blue;
+.nav_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: "Ubuntu Sans", sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+img{
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#sale{
+    font-weight: 600;
 }
